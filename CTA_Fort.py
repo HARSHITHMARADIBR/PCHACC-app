@@ -23,7 +23,7 @@ Other Structures
 ''')
 
     # ✅ Display Map
-    Cta_Map = r"C:\Users\harshith maradi b r\Documents\Downloads\Prohibited\web streamlit\personal finance tracker\personal finance tracker\images\IMG-20250703-WA0007.jpg"
+    Cta_Map = "images/IMG-20250703-WA0007.jpg"
     with open(Cta_Map, "rb") as image_file:
         encoded_image = base64.b64encode(image_file.read()).decode()
     st.markdown(
@@ -33,7 +33,7 @@ Other Structures
     st.markdown("***Land Use Map Of Chitradurga Fort***") 
 
     # ✅ Display Table 1
-    Table1 = r"C:\Users\harshith maradi b r\Documents\Downloads\Prohibited\web streamlit\personal finance tracker\personal finance tracker\images\IMG-20250703-WA0008.jpg"
+    Table1 = "images\IMG-20250703-WA0008.jpg"
 
     with open(Table1, "rb") as image_file:
         encoded_image = base64.b64encode(image_file.read()).decode()
@@ -44,7 +44,7 @@ Other Structures
     st.markdown("***Land Use Table Of Chitradurga Fort***") 
 
     # ✅ Display Table 2
-    table2 = r"C:\Users\harshith maradi b r\Documents\Downloads\Prohibited\web streamlit\personal finance tracker\personal finance tracker\images\IMG-20250703-WA0021.jpg"
+    table2 = "imagesIMG-20250703-WA0021.jpg"
     with open(table2, "rb") as image_file:
         encoded_image = base64.b64encode(image_file.read()).decode()
     st.markdown(
